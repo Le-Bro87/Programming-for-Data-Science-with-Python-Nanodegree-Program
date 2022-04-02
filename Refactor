@@ -1,0 +1,7 @@
+$ git checkout -b refactoring
+$ git checkout -b refactoring
+$ git commit -m "Adding CSV's for the required Python script"
+$ git commit -m “Python code add”
+$ git push origin refactoring
+$ git checkout master
+$ git log --graph --all --oneline
