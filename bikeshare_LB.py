@@ -85,6 +85,7 @@ def time_stats(df):
      print('The most common day of the week is:', df['day_of_week'].value_counts().idxmax())
     except KeyError:
       print("\nThe most common day of the week is:\nNo data available...")
+#helps identify the most common day of the week to ride bikes, in the area selected
 
     # TO DO: display the most common start hour
     try: 
@@ -96,6 +97,7 @@ def time_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+#Helps to check when is the best time to ride your bike in the area selected
 
 
 def station_stats(df):
